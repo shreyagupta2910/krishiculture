@@ -27,7 +27,7 @@
 }
 #contact{
     padding: 80px;
-    background-color: #0E8388
+    background-color: #0E8388;
 }
 .container{
     max-width: 540px;
@@ -90,8 +90,6 @@ form#contactForm .form-group textarea {
 .footer{
     background-color: #CBE4DE;
 }
-
-
 .copyright{
     background-color: #CBE4DE;
 }

@@ -11,10 +11,8 @@
   </head>
 
 <body>
-
   <section id="title">
     <div class="container-fluid">
-
     <!-- Nav Bar -->
      <nav class="navbar navbar-expand-lg navbar-dark">
      <a class="navbar-brand"><i class="fa-sharp fa-solid fa-money-bill-wheat " data-mdb-toggle="animation"data-mdb-animation-reset="true" data-mdb-animation="slide-out-right" ></i>KrishiCulture</a>
@@ -26,16 +24,18 @@
         <li class="nav-item">
             <a class="nav-link">Home</a></li>
         <li class="nav-item">
-            <a class="nav-link">Google Earth</a></li>
+            <a class="nav-link" href="https://code.earthengine.google.com/?project=ee-rid">Google Earth</a></li>
             <li class="nav-item">
             <a class="nav-link">News</a></li>
             <li class="nav-item">
-                <a class="nav-link"> My Location</a>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" href="https://maps.google.co.in">Location</button>
+              </form>
             </li>
     </ul>
     </div>
 </nav>
-
 </div>
   </section>
   <section>
@@ -57,13 +57,13 @@
               <img src="pmkvy.png" class="d-block w-100" alt="PMKVY">
             </a>
           </div>
-             <div class="item carousel-item">
-            <a href="https://pmksy.gov.in/">
+          <div class="item carousel-item">
+            <a href="https://www.myscheme.gov.in/schemes/pmkmy            ">
               <img src="pradhan mantri maan dhan.png" class="d-block w-100" alt="PMKSY">
             </a>
           </div>
              <div class="item carousel-item">
-            <a href="https://pmksy.gov.in/">
+            <a href="https://enam.gov.in">
               <img src="enaam.png" class="d-block w-100" alt="PMKSY">
             </a>
           </div>
@@ -78,17 +78,15 @@
         </button>
       </div>
   </section>
-
-
   <!-- Features -->
-   <section id="features">
+  <section id="features">
     <div class="row">
         <div class="col-lg-4 md-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Farmers Near Me</h5>
-              <p class="card-text">To know more about Best Farmers around me</p>
-              <a href="#" class="btn btn-primary">Farmers Search</a>
+              <h5 class="card-title">Market Statistics</h5>
+              <p class="card-text">To know more about the current market and rates</p>
+              <a href="https://www.statista.com/topics/5146/farming-in-india/#topicOverview" class="btn btn-success">Market Search</a>
             </div>
           </div>
         </div>
@@ -96,8 +94,8 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Traders Near Me</h5>
-              <p class="card-text">To know about Best Traders around me,   At best price possible</p>
-              <a href="#" class="btn btn-primary">Traders Search</a>
+              <p class="card-text">To know about Best Traders and Farmers around me,At best price possible</p>
+              <a href="https://www.statista.com/topics/5146/farming-in-india/#topicOverview" class="btn btn-success"> Search</a>
             </div>
           </div>
         </div>
@@ -106,21 +104,20 @@
               <div class="card-body">
                 <h5 class="card-title">Weather Forecast</h5>
                 <p class="card-text">Farmers friend as well as foe "weather" whether its predictable?</p>
-                <a href="#" class="btn btn-primary">Forecast</a>
+                <a href="https://www.accuweather.com/en/in/india-weather" class="btn btn-success">Forecast</a>
               </div>
             </div>
           </div>
       </div>
       </section>
-  <!-- Submit details-->
-  
+      <!--Registration-->
+      
+  <!--Enter farmer details-->
   <section class="page-section" id="contact">
   <div class="row">
     <div class="col-lg-6">
       <div class="card">
         <div class="card-body">
-          
-            
               <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Farmer Details</h2>
@@ -179,10 +176,8 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-            
-            
+                    <div class="text-center"><button class="sendmsg btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form> 
           </div>
         </div>
       </div>
@@ -190,8 +185,6 @@
     <div class="col-lg-6">
       <div class="card">
         <div class="card-body">
-         
-            
               <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Trader's Details</h2>
@@ -251,21 +244,94 @@
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-         
-            
+                </form>          
           </div>
         </div>
       </div>
     </div>
   </div>
   </section>
-  <footer class="background">
-    <p class="text-footer">
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
-        Copyright &copy; 2029 Krishiculture.com-All rights reserved
-    </p>
-    </footer>
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="footer">
+    <div class="  container text-center text-md-start ">
+      <!-- Grid row -->
+      <div class="row"> 
+        <div class="col-lg-6 col-md-6">
+          <h6 class="text-uppercase fw-bold mb-4">Important Links</h6>
+            <a href="https://www.india.gov.in/topics/agriculture" class="text-reset">GOI Agriculture</a>
+          </p>
+          <p>
+            <a href="https://cloud.google.com/customers/agrostar?_ga=2.52450222.-703206651.1660719200&_gac=1.124697080.1680813496.Cj0KCQjw27mhBhC9ARIsAIFsETGWYjgd136PrhBxmq6COarHFAF69xbogVn1U9EDR92aq_QNjhAdvCQaAjtUEALw_wcB" class="text-reset">Agrostar</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-6  mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Goa, GA403401, IN</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 91 84267 86934</p>
+          <p><i class="fas fa-print me-3"></i> + 91 87655 12345</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+     
+    </div>
+  </section>
+  
+
+  <!-- Copyright -->
+  <div class="copyright">
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://shravani1712.github.io/krishiculture/">krishiculture.com</a>
+  </div>
+  <!-- Copyright -->
+</div>
+</footer>
+<!-- Footer -->
 
 </body>
 </html>

@@ -20,5 +20,7 @@ Giving the nearest wear house details and the stock details to the farmers.
 Promoting the schemes announced by the central government and providing the necessary details and links for the same. 
 
 
-
-Additionally we can use IR technology to detect the plant defect at early stages and here save the stock to be produced.
+### Future Prospective:-
+1. We can use IR technology to detect the plant disease at a very early stage. This technology uses the temperature spectrum in analysing the crop. The temperature difference causd by transpiration helps the farmer in knowing if the crop is affectd or not at a very early stage. 
+This will ensure good and healthy crop production
+2. We can also try to eliminate all the middle men and just have the government intervenene to regulate the taxes and prices of the crops. This will remove all the additional costs on the products available in the market.

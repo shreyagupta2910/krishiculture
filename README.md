@@ -14,10 +14,10 @@ Unseasonal rains all over the country have ruined vegetable crops and disrupted 
 ### Our Proposed Solution:-
 #### This is what our website consists of:- 
 We are primarily focusing on:- 
-*Giving the farmers the current updated market scenario ( including GDP, taxes and the market demand).*
-*Giving accurate weather forecasts to ensure good crop production.*
-*Giving the nearest wear house details and the stock details to the farmers.*
-*Promoting the schemes announced by the central government and providing the necessary details and links for the same*
+Giving the farmers the current updated market scenario ( including GDP, taxes and the market demand).
+Giving accurate weather forecasts to ensure good crop production.
+Giving the nearest wear house details and the stock details to the farmers.
+Promoting the schemes announced by the central government and providing the necessary details and links for the same
 
 
 ### Future Prospective:-
